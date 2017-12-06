@@ -1,0 +1,159 @@
+body {
+	font-family:Arial, Helvica, scans-serif
+	font-size:15px;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+/* Classes for login pages */
+
+.input-style [type=text]{
+	size:40;
+	background:transparent;
+	border: none;
+	border-bottom: 2px; solid #000000;
+} 
+
+/* this a class for all gloabal container */
+
+.container {
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.buttonR {
+	color:#e8491e;
+	float:right;
+}
+
+.button-A {
+	height: 38px;
+	background: #e8491d;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+.btn-link {
+	letter-spacing: 1px;
+	color: #00001a;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.size {
+	padding: 32px;
+	color: black;
+}
+
+.textMsg {
+	text-align: center;
+	font-size: 14px;
+}
+
+#
+
+#logo {
+	background-color: #35424a;
+	color: #ffffff;
+}
+
+
+header #signInHeading h2{
+	text-align:center;
+}
+
+header {
+	background-color:#35424a;
+	color: white;
+	padding-top: 50px;
+	min-height: 70px;
+	border-bottom: #e8491d 5px solid;
+}
+
+header a {
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;	
+}
+
+header ul {
+	padding: 0;
+	margin: 0;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+
+header #logo h1{
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-bottom: 50px
+}
+
+header .highlight , header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+table th{
+	background-color: #35424a; 
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#footer {
+	padding: 35px;
+	color:#ffffff;
+	background:#35424a;
+}
+
+#footer h1{
+	float: left;
+}
+
+#footer form {
+	float: right;
+}
+
+
+#errorScreen {
+	background-color: #f4f4f4;
+}
+
+#containerMsg {
+	background: #35424a;
+	padding-top: 30px;
+	padding-bottom: 210px;	
+}
+
+#marginMsg {
+	margin-left: 655px;
+}
+
+#textMsg{
+	margin-left: 750px;
+	color: white
+}
+		
+
+.warnmsg {
+	color: #af002a;
+	font-weight: bold;
+}

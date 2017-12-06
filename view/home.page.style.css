@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("img1.wdp.jxr");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+section {
+	padding: 93px;
+}
+
+
+section i {
+	color: #03181f;
+	text-align: center;
+}
+
+#link {
+	color: #250875;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: Arial,Georgia, scans-serif;
+
+}
+
+.showcase-top {
+	margin-left: center;
+	margin-top: 10px;
+}
+
+.showcase-bottom {
+	margin-left: center;
+	
+}
+
+.buttonR {
+	color:#e8491e;
+	float:center;
+	font-size:20px;
+}
+
+
+
