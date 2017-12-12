@@ -26,7 +26,7 @@
 
 			foreach ($result as $row) {
 				echo "<tr><td><a href='../controller/c.task.item.php?&owneremail=".$row["owneremail"]."&id=".$row["id"]."&option=1' class='btn btn-success btn-xm'>
-								<span class='glyphicon glyphicon-check'>Complete taksk</span></a>
+								<span class='glyphicon glyphicon-check'>Complete task</span></a>
   					  	      <a href='../controller/c.task.item.php?&owneremail=".$row["owneremail"]."&id=".$row["id"]."&option=2' class='btn btn-warning btn-xm'>
   					  	    	<i class='fa fa-pencil fa-sm'></i><span class='size'>Edit this item</span></a>
   							  <a href='../controller/c.task.item.php?&owneremail=".$row["owneremail"]."&id=".$row["id"]."&option=3' class='btn btn-danger btn-xm'>

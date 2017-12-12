@@ -10,7 +10,7 @@
 	$_edit = new EditItem($gemail,$iditem);
 	$_delete = new DeleteItem($gemail,$iditem);
 	$_complete = new CompleteItem($gemail,$iditem);
-	echo $iditem;
+	
 	switch ($option) {
 		case '1':
 			$_complete->displaymsg();

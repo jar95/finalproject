@@ -48,7 +48,8 @@
  			$this->itemsToComplete = new Connect;
  			$sql = "UPDATE todos SET isdone='0' WHERE owneremail='$this->mail' and id='$this->item'";
 			$result = $this->itemsToComplete->runQuery($sql);
-			header('Location: ../view/view.task.page.php');		 			
+			header('Location: ../view/view.show.message.php?option=cosuccess');
+			//header('Location: ../view/view.task.page.php');		 			
  		}
  	}
 

@@ -42,7 +42,7 @@
   							<input type="submit" class="btn btn-default btn-lg" value=" Login ">   											
   						</form>
   						<br><br>
-  						<a id="link" href="view.new.user.php" class="btn btn-link" role="button"><b>Sign Up</b></button>
+  						<a id="link" href="view.new.user.php" class="btn btn-link" role="button"><b>New User? Sign Up</b></button>
  					</div> 			
   				</div>
 			

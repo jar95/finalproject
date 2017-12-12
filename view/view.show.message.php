@@ -5,29 +5,34 @@
     
     switch($option) {
         case 'inevents':
-            $msg1 = 'No event Incomplete';
-            $msg2 = 'Return.'; 
+            $msg1 = 'No Incomplete task has been recognized';
+            $msg2 = 'Return to the last page.'; 
             $imsg = 'class="fa fa-info fa-stack-1x fa-inverse"';      
             break;
         case 'coevents':
-            $msg1 = 'No event Complete';
-            $msg2 = 'Make an event complete.'; 
+            $msg1 = ' You do not have a task Completed     ';
+            $msg2 = 'Make a task complete.'; 
             $imsg = 'class="fa fa-text-width fa-stack-1x fa-inverse"';      
             break;
         case 'newuser':
-            $msg1 = 'Are you new user?';
+            $msg1 = 'Are you new user? please register ';
             $msg2 = 'Register new user.'; 
             $imsg = 'class="fa fa-user-o fa-stack-1x fa-inverse"';
             break;
         case 'errorpass':
-            $msg1 = 'Check your password';
+            $msg1 = '       Please, check your password   ';
             $imsg = 'class="fa fa-pencil-square-o fa-stack-1x fa-inverse"'; 
             break;
         case 'noevents':
-            $msg1 = 'No events recognized';
+            $msg1 = ' No task in your profile has been recognized';
             $msg2 = 'Add events in your Profile.'; 
             $imsg = 'class="fa fa-pencil-square-o fa-stack-1x fa-inverse"';   
-            break;             
+            break;
+        case 'cosuccess':
+            $msg1 = 'an item has been successfully completed';
+            $msg2 = 'Return';
+            $imsg = 'class="fa fa-info fa-stack-1x fa-inverse"';
+            break;
     }
 ?>
 
